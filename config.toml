@@ -1,10 +1,14 @@
-baseurl = "/"
+baseurl = "https://jennprk.github.io/blog/"
 languageCode = "en-us"
-title = "A Hugo website"
+title = "Ji-Eun Park"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+publishDir = "docs"
+enableEmoji = true
+canonifyurls = true
+hasCJKLanguage = true
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -14,13 +18,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "/about/"
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
+    url = "https://github.com/jennprk/blog/"
 [[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/ji-eun-park/"
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "M.S. Biostatistics, Weill Cornell Medicine"
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
@@ -36,4 +40,3 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     width = 50
     height = 50
     alt = "Logo"
-

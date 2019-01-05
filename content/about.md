@@ -1,6 +1,8 @@
 ---
 title: "About"
-date: "2016-05-05T21:48:51-07:00"
+date: "01-05-2019"
 ---
 
-This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by [Yihui Xie](https://github.com/yihui/hugo-lithium).
+I am a Biostatistician working at Weill Cornell Medicine as a Research assistant. I received my master's in Biostatistics at Weill Cornell Medical College.
+
+This blog contains contents regarding to my research projects and self-studying materials.
