@@ -1,4 +1,4 @@
-baseurl = "https://jennprk.github.io/blog/"
+baseurl = "https://jennprk.github.io/GitBlog/"
 languageCode = "en-us"
 title = "Ji-Eun Park"
 theme = "hugo-lithium"
@@ -18,7 +18,7 @@ hasCJKLanguage = true
     url = "/about/"
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/jennprk/blog/"
+    url = "https://github.com/jennprk/GitBlog/"
 [[menu.main]]
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/ji-eun-park/"
