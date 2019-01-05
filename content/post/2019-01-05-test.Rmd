@@ -1,0 +1,14 @@
+---
+title: test
+author: Jenn
+date: '2019-01-05'
+slug: test
+categories: []
+tags: []
+---
+
+```{r}
+library(gapminder)
+head(gapminder)
+```
+
