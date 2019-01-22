@@ -2,17 +2,19 @@ baseurl = "https://jennprk.github.io/GitBlog/"
 languageCode = "en-us"
 title = "Ji-Eun Park"
 theme = "minimal"
+#disqusShortname = ""
+#disqus comments = ""
 googleAnalytics = ""
-disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 publishDir = "docs"
+relativeurls = true
 enableEmoji = true
 canonifyurls = true
 hasCJKLanguage = true
 
 [params]
     author = "Ji-Eun Park"
-    description = "New York, NY   |   Biostatistics Research Assistant at Weill Cornell"
+    description = "Biostatistics Research Assistant at Weill Cornell   |   New York, NY"
     githubUsername = "ji-eun-park"
     accent = "#00462a"
     showBorder = true
