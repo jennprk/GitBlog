@@ -1,7 +1,7 @@
 baseurl = "https://jennprk.github.io/GitBlog/"
 languageCode = "en-us"
 title = "Ji-Eun Park"
-theme = "hugo-lithium"
+theme = "minimal"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -10,33 +10,55 @@ enableEmoji = true
 canonifyurls = true
 hasCJKLanguage = true
 
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/jennprk/GitBlog/"
-[[menu.main]]
-    name = "LinkedIn"
-    url = "https://www.linkedin.com/in/ji-eun-park/"
-
 [params]
-    description = "M.S. Biostatistics, Weill Cornell Medicine"
+    author = "Ji-Eun Park"
+    description = "New York, NY   |   Research Assistant in Biostatistics"
+    githubUsername = "ji-eun-park"
+    accent = "#00462a"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "R", "python"]
+    favicon = ""
 
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.12.0"
-    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
+[[menu.main]]
+    url = "https://jennprk.github.io/GitBlog/"
+    name = "Home"
+    weight = 1
 
-    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    MathJaxVersion = "2.7.5"
+[[menu.main]]
+    url = "https://jennprk.github.io/GitBlog/post/"
+    name = "Posts"
+    weight = 2
 
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
+[[menu.main]]
+    url = "https://jennprk.github.io/GitBlog/class/"
+    name = "Projects"
+    weight = 3
+
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:jip2008@med.cornell.edu"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/ji-eun-park/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://www.facebook.com/jieunprk"
+    name = "facebook-f"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/ji-eun-park/"
+    name = "linkedin"
+    weight = 4
