@@ -49,7 +49,7 @@ hasCJKLanguage = true
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/ji-eun-park/"
+    url = "https://github.com/jennprk/"
     name = "github"
     weight = 2
 
